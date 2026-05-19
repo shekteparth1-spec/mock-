@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply transition-colors duration-300 bg-slate-950 text-slate-100;
+  }
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+.tracking-widest {
+  letter-spacing: 0.15em;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}

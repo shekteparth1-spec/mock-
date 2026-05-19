@@ -1,0 +1,6 @@
+{
+  "name": "AceMock MCQ Test",
+  "description": "A high-performance MCQ mock test platform with chapter-wise tests, real-time timer, and detailed results analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
